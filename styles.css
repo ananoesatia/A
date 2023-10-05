@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(musicNote.png);
+    background-repeat: no-repeat;
+    width:100vw;
+    height:10vh;
+}
+
+.header {
+    width:100vw;
+    height:10vh;
+    background: linear-gradient(90deg, rgba(185,185,199,1) 0%, rgba(18,52,129,1) 57%, rgba(0,0,179,1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 30px;
+
+}
+
+h1{
+    margin-left: 30px;
+}
+
+a {
+    color: black;
+    text-decoration: dotted;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
